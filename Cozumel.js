@@ -1,5 +1,3 @@
-//Options for Cozumel file 
-
 $(document).ready (function(){
 
 
@@ -93,6 +91,13 @@ console.log(Choose_To_Dive);
 console.log(Player_Wins_Cozumel);
 
 
+//NUMBER OF TIMES PLAYED
+
+//var num_times_played = document.getElementsByClassName("play_again");
+//for var i=0, len = num_times_played.length; i < len; i++) {
+// num_times_played[i].onclick = function() {
+
+//}
 
 //Win & Lose alerts
 

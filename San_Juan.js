@@ -75,13 +75,17 @@ $("#Player_Loses_San_Juan_Link").click(function(){
 });
 
 
-//KEEP TRACK OF NUMBER OF TIMES PLAYED
+//DISPLAY NUMBER OF TIMES PLAYED
+var plays = 0;
 
-//var num_times_played = document.getElementsByClassName("play_again");
-//for var i=0, len = num_times_played.length; i < len; i++) {
- // num_times_played[i].onclick = function() {
+$(document).ready(function(){
+$('#play_again').on("click", function(){
+  plays++;
+  $('#alert').html("You have played" + plays + " times");
+  $('#alert').show();
 
-  //}
+});
+
 }
 
 

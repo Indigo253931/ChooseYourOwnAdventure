@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" href="CYOA.css">
 </head>
 <body>
-<div>
+<div id ="beginning_content">
   <p class="game_title">t</p>
   <p class="game_title">e</p>
   <p class="game_title">r</p>
@@ -54,6 +54,7 @@
 <h3 id="by_me">by Monica Rodewald</h2>
 
 <div id="intro">
+
     <h1 id="beginning">The Beginning</h1>
         <p class="text_border">It's almost noon and you're walking through a local park.
         <br>Out of nowhere, a girl on a bicycle drops a package next to you as she quickly rides by.</p>
@@ -79,11 +80,13 @@
         <img class="displayed" src ="media/dia.jpg" style="height:700px;width:900px;"/>
         <br>One is destined for Cozumel, Mexico, and the other to San Juan, Puerto Rico. 
         <br>Now you must make a choice.</p>
-        <p class="text_border">You <a href="Cozumel.html">decide to go to Cozumel</a>.
-        <br>You <a href="San_Juan.html">decide to go to San Juan</a>.</p>
+        <p class="text_border"> 
+        <button id="Cozumel" type="button">You decide to go to Cozumel for ue</button><button id="San_Juan" type="button">You decide to go to San Juan</button>
         </div>
         </div>
 
 
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+<script src ="CYOA_intro.js"></script>  
 </body>
 </html>
